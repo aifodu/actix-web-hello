@@ -4,7 +4,8 @@ use dotenv::dotenv;
 
 use api::task::get_task;
 
-use actix_web::{middleware::Logger, web::Data, App, HttpServer};
+use actix_web::{middleware::Logger, App, HttpServer};
+// use actix_web::{middleware::Logger, web::Data, App, HttpServer};
 
 #[actix_web::main]
 async fn main() -> std::io::Result<()> {
